@@ -13,7 +13,7 @@ BASE58_LIST as (
 		] as list
 )
 select 
-  _1.c||_2.c||_3.c||_4.c||_5.c||_6.c as code
+	_1.c||_2.c||_3.c||_4.c||_5.c||_6.c as code
 from 
 (
 	select 
