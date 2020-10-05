@@ -19,40 +19,40 @@ from
 	select 
 		(select list from BASE58_LIST)[t.num] as c
 	from 
-	  (select generate_series(1, 58) as num) t
+	  	(select generate_series(1, 58) as num) t
 ) _1
 cross join
 (
 	select 
 		(select list from BASE58_LIST)[t.num] as c
 	from 
-	  (select generate_series(1, 58) as num) t
+		(select generate_series(1, 58) as num) t
 ) _2
 cross join
 (
 	select 
 		(select list from BASE58_LIST)[t.num] as c
 	from 
-	  (select generate_series(1, 58) as num) t
+		(select generate_series(1, 58) as num) t
 ) _3
 cross join
 (
 	select 
 		(select list from BASE58_LIST)[t.num] as c
 	from 
-    (select generate_series(1, 58) as num) t
+		(select generate_series(1, 58) as num) t
 ) _4
 cross join
 (
 	select 
 		(select list from BASE58_LIST)[t.num] as c
 	from 
-	  (select generate_series(1, 58) as num) t
+		(select generate_series(1, 58) as num) t
 ) _5
 cross join
 (
 	select 
 		(select list from BASE58_LIST)[t.num] as c
 	from 
-  	(select generate_series(1, 58) as num) t
+  		(select generate_series(1, 58) as num) t
 ) _6
