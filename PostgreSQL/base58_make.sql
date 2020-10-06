@@ -12,6 +12,7 @@ BASE58_LIST AS (
 		] AS list
 )
 SELECT 
+	-- 6자리 코드 생성
 	(SELECT list FROM BASE58_LIST)[(RANDOM()*57)::INTEGER + 1]
 	||
 	(SELECT list FROM BASE58_LIST)[(RANDOM()*57)::INTEGER + 1]
