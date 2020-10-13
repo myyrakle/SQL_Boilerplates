@@ -16,3 +16,4 @@ FROM
 	) SERIES
 ) T
 GROUP BY T.week
+ORDER BY T.Week
